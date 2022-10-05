@@ -39,6 +39,13 @@ namespace StringMethods.Example
 
             Console.WriteLine(string.IsNullOrEmpty(""));
             Console.WriteLine(string.IsNullOrWhiteSpace("     "));
+
+            // ---
+
+            //Math.Ceiling(2.4); => 3
+            //Math.Floor(2.4); => 2
+            //Math.Round(2.5, MidpointRounding.AwayFromZero); => 3
+            //Math.Pow(2, 4); => 16
             Console.ReadKey();
         }
     }
